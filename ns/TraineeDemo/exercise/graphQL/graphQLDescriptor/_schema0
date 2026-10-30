@@ -1,0 +1,17 @@
+type Query {
+ getLink (id: ID): Link
+}
+type Link {
+	id: ID
+	url: String
+	postedBy(id: ID): User
+}
+type User {
+	id: ID
+	name: String
+	address: Address
+}
+type Address {
+	line1: String
+	line2: String
+}

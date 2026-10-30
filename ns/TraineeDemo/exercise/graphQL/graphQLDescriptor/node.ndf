@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">graphqldescriptor</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">TraineeDemo.exercise.graphQL:graphQLDescriptor</value>
+  <value name="node_pkg">TraineeDemo</value>
+  <value name="node_comment"></value>
+  <value name="is_public">false</value>
+  <array name="operationTypes" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Query</value>
+      <value name="type">query</value>
+      <array name="resolvers" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="name">getLink</value>
+          <value name="service">TraineeDemo.exercise.graphQL.graphQLDescriptor_.resolvers.Query:getLinkResolver</value>
+          <value name="type">Link</value>
+        </record>
+      </array>
+    </record>
+  </array>
+  <array name="types" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Link</value>
+      <array name="resolvers" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="name">postedBy</value>
+          <value name="service">TraineeDemo.exercise.graphQL.graphQLDescriptor_.resolvers.Link:postedByResolver</value>
+          <value name="type">User</value>
+        </record>
+      </array>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">User</value>
+      <array name="resolvers" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="name">address</value>
+          <value name="service">TraineeDemo.exercise.graphQL.graphQLDescriptor_.resolvers.User:addressResolver</value>
+          <value name="type">Address</value>
+        </record>
+      </array>
+    </record>
+  </array>
+  <array name="otherTypes" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Link</value>
+      <value name="graphqlType">OBJECT</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">User</value>
+      <value name="graphqlType">OBJECT</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Address</value>
+      <value name="graphqlType">OBJECT</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Int</value>
+      <value name="graphqlType">SCALAR</value>
+      <value name="wmType">java.lang.Integer</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Float</value>
+      <value name="graphqlType">SCALAR</value>
+      <value name="wmType">java.lang.Double</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">String</value>
+      <value name="graphqlType">SCALAR</value>
+      <value name="wmType">String</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Boolean</value>
+      <value name="graphqlType">SCALAR</value>
+      <value name="wmType">java.lang.Boolean</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">ID</value>
+      <value name="graphqlType">SCALAR</value>
+      <value name="wmType">String</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Long</value>
+      <value name="graphqlType">SCALAR</value>
+      <value name="wmType">java.lang.Long</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Char</value>
+      <value name="graphqlType">SCALAR</value>
+      <value name="wmType">java.lang.Character</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Short</value>
+      <value name="graphqlType">SCALAR</value>
+      <value name="wmType">java.lang.Short</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">BigDecimal</value>
+      <value name="graphqlType">SCALAR</value>
+      <value name="wmType">java.math.BigDecimal</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="name">BigInteger</value>
+      <value name="graphqlType">SCALAR</value>
+      <value name="wmType">java.math.BigInteger</value>
+    </record>
+  </array>
+  <array name="dataLoaders" type="record" depth="1">
+  </array>
+  <record name="interfaceObjectMapping" javaclass="com.wm.util.Values">
+  </record>
+  <record name="unionObjectMapping" javaclass="com.wm.util.Values">
+  </record>
+  <value name="graphQLSchemaFile">_schema0</value>
+  <value name="maxQueryComplexity">-1</value>
+  <value name="maxQueryDepth">-1</value>
+  <array name="graphqlTypeToDocumentMapping" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="graphqlTypeName">Link</value>
+      <value name="documentTypeName">TraineeDemo.exercise.graphQL.graphQLDescriptor_.types:Link</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="graphqlTypeName">User</value>
+      <value name="documentTypeName">TraineeDemo.exercise.graphQL.graphQLDescriptor_.types:User</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="graphqlTypeName">Address</value>
+      <value name="documentTypeName">TraineeDemo.exercise.graphQL.graphQLDescriptor_.types:Address</value>
+    </record>
+  </array>
+  <value name="sourceUri">file:///C:\Users\vince\Downloads\myGraphQL.graphql</value>
+</Values>

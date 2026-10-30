@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">webMethods/WebSocket</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">TraineeDemo.exercise.websocket:SocketClient</value>
+  <value name="node_pkg">TraineeDemo</value>
+  <value name="is_public">false</value>
+  <value name="uri">ws://46.250.226.196:9001/mii/server</value>
+  <value name="behaviour">Client</value>
+  <record name="callback" javaclass="com.wm.util.Values">
+    <value name="onConnect">TraineeDemo.exercise.websocket.SocketClient:onConnect</value>
+    <value name="onBinary">TraineeDemo.exercise.websocket.SocketClient:onBinary</value>
+    <value name="onText">TraineeDemo.exercise.websocket.SocketClient:onText</value>
+    <value name="onClose">TraineeDemo.exercise.websocket.SocketClient:onClose</value>
+    <value name="onError">TraineeDemo.exercise.websocket.SocketClient:onError</value>
+  </record>
+</Values>
